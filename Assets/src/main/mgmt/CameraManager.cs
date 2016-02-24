@@ -59,13 +59,13 @@ public class CameraManager : MonoBehaviour
                 
 		// Setup orbital camera reference
 		orbitalCamRef = ScriptableObject.CreateInstance<OrbitalCameraControllerImpl> ();
-		orbitalCamRef.setCamera (Camera.main.camera);
+		orbitalCamRef.setCamera (Camera.main.GetComponent<Camera>());
 		orbitalCamRef.setTracker (cameraTracker);
 		orbitalCamRef.InitCam ();
         
 		// Setup normal camera reference (Not used currently in that project)
 		autoOrbitalCamRef = ScriptableObject.CreateInstance<AutoOrbitalCameraControllerImpl> ();
-		autoOrbitalCamRef.setCamera (Camera.main.camera);
+		autoOrbitalCamRef.setCamera (Camera.main.GetComponent<Camera>());
 		autoOrbitalCamRef.setTracker (cameraTracker);
 		autoOrbitalCamRef.InitCam ();
 		
@@ -83,12 +83,12 @@ public class CameraManager : MonoBehaviour
 		}
                 
 		// Update orbital camera reference
-		orbitalCamRef.setCamera (Camera.main.camera);
+		orbitalCamRef.setCamera (Camera.main.GetComponent<Camera>());
 		orbitalCamRef.setTracker (cameraTracker);
 		orbitalCamRef.InitCam ();
         
 		// Update normal camera reference (Not used currently in that project)
-		autoOrbitalCamRef.setCamera (Camera.main.camera);
+		autoOrbitalCamRef.setCamera (Camera.main.GetComponent<Camera>());
 		autoOrbitalCamRef.setTracker (cameraTracker);
 		autoOrbitalCamRef.InitCam ();
 		
