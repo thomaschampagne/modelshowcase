@@ -1,9 +1,9 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\src\main\mgmt\Constants.cs">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
     <Files>
-      <File FileName="Assets\src\main\mgmt\GameManager.cs" Line="88" Column="51" />
-      <File FileName="Assets\src\main\mgmt\Constants.cs" Line="26" Column="64" />
+      <File FileName="Assets\src\main\mgmt\CameraManager.cs" Line="8" Column="53" />
+      <File FileName=".gitignore" Line="4" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
